@@ -10,7 +10,10 @@ export default {
         outerSpace: "0.2em",
       },
       boxShadow: {
-        underline: "inset 0 -0.75em 0 0",
+        underlineYellow: "inset 0 -0.75em 0 0 var(--Yellow)",
+        underlineSoftYellow: "inset 0 -0.75em 0 0 var(--Soft-yellow)",
+        underlineRed: "inset 0 -0.75em 0 0 var(--Red)",
+        underlineSoftRed: "inset 0 -0.75em 0 0 var(--Soft-red)",
       },
       colors: {
         heading: "var(--Very-dark-desaturated-blue)",

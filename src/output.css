@@ -566,10 +566,6 @@ video {
   top: 100px;
 }
 
-.m-8{
-  margin: 2rem;
-}
-
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -887,8 +883,14 @@ video {
   opacity: 1;
 }
 
-.shadow-underline{
-  --tw-shadow: inset 0 -0.75em 0 0;
+.shadow-underlineSoftYellow{
+  --tw-shadow: inset 0 -0.75em 0 0 var(--Soft-yellow);
+  --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-underlineSoftRed{
+  --tw-shadow: inset 0 -0.75em 0 0 var(--Soft-red);
   --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -1003,6 +1005,18 @@ main {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:shadow-underlineYellow:hover{
+  --tw-shadow: inset 0 -0.75em 0 0 var(--Yellow);
+  --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-underlineRed:hover{
+  --tw-shadow: inset 0 -0.75em 0 0 var(--Red);
+  --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px){
   .sm\:p-16{
     padding: 4rem;
@@ -1010,10 +1024,6 @@ main {
 }
 
 @media (min-width: 768px){
-  .md\:m-32{
-    margin: 8rem;
-  }
-
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -1098,16 +1108,12 @@ main {
     background-image: url('/src/assets/desktop/image-transform.jpg');
   }
 
-  .md\:p-0{
-    padding: 0px;
+  .md\:p-16{
+    padding: 4rem;
   }
 
   .md\:p-32{
     padding: 8rem;
-  }
-
-  .md\:p-16{
-    padding: 4rem;
   }
 
   .md\:px-32{
