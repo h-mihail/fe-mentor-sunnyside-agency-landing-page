@@ -4,4 +4,5 @@ import preact from "@preact/preset-vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [preact()],
+  base: "/fe-mentor-sunnyside-agency-landing-page",
 });
