@@ -883,36 +883,16 @@ video {
   opacity: 1;
 }
 
-.shadow-underlineSoftYellow{
-  --tw-shadow: inset 0 -0.75em 0 0 var(--Soft-yellow);
-  --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-underlineSoftRed{
   --tw-shadow: inset 0 -0.75em 0 0 var(--Soft-red);
   --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-red{
-  --tw-shadow-color: var(--Red);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-softRed{
-  --tw-shadow-color: var(--Soft-red);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-softYellow{
-  --tw-shadow-color: var(--Soft-yellow);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-yellow{
-  --tw-shadow-color: var(--Yellow);
-  --tw-shadow: var(--tw-shadow-colored);
+.shadow-underlineSoftYellow{
+  --tw-shadow: inset 0 -0.75em 0 0 var(--Soft-yellow);
+  --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .transition{
@@ -1005,14 +985,14 @@ main {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:shadow-underlineYellow:hover{
-  --tw-shadow: inset 0 -0.75em 0 0 var(--Yellow);
+.hover\:shadow-underlineRed:hover{
+  --tw-shadow: inset 0 -0.75em 0 0 var(--Red);
   --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:shadow-underlineRed:hover{
-  --tw-shadow: inset 0 -0.75em 0 0 var(--Red);
+.hover\:shadow-underlineYellow:hover{
+  --tw-shadow: inset 0 -0.75em 0 0 var(--Yellow);
   --tw-shadow-colored: inset 0 -0.75em 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

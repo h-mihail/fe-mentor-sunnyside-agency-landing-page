@@ -8,11 +8,11 @@ export const LinkCard = ({
 }) => {
   return (
     <div
-      class={`flex-1 flex flex-col justify-center items-center md:items-start gap-8
+      class={`flex-1
         h-[120vw] md:h-[42vw]
         bg-cover bg-no-repeat bg-center ${bg}`}
     >
-      <div class="p-8 sm:p-16 md:p-16">
+      <div class="flex flex-col justify-center items-center md:items-start p-8 sm:p-16 md:p-16 gap-8">
         {title && (
           <h2 class="text-heading text-center md:text-start text-3xl md:text-4xl font-black font-heading">
             {title}
